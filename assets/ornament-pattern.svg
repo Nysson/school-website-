@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Girih-inspired lattice: eight-point stars joined by diamonds. Tiles seamlessly. -->
+  <g fill="none" stroke="#C9A24B" stroke-width="1">
+    <g transform="translate(40 40)">
+      <rect x="-11" y="-11" width="22" height="22"/>
+      <rect x="-11" y="-11" width="22" height="22" transform="rotate(45)"/>
+      <circle r="4"/>
+    </g>
+    <path d="M0 0 L8 8 M80 0 L72 8 M0 80 L8 72 M80 80 L72 72"/>
+    <path d="M40 0 L46 6 L40 12 L34 6 Z M40 80 L46 74 L40 68 L34 74 Z M0 40 L6 34 L12 40 L6 46 Z M80 40 L74 34 L68 40 L74 46 Z"/>
+  </g>
+</svg>

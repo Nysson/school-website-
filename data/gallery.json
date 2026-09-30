@@ -1,0 +1,51 @@
+[
+  {
+    "file": "building-entrance.jpg",
+    "title_uz": "Maktabning bosh binosi: bayroq, orkestr va oʻquvchilar bilan tantanali kutib olish",
+    "title_en": "The main building: a festive welcome with the flag, a brass band and students",
+    "category": "bino",
+    "featured": true
+  },
+  {
+    "file": "literary-event.jpg",
+    "title_uz": "Adabiy kecha: milliy liboslardagi oʻquvchilar sahnada",
+    "title_en": "A literary evening: students in national dress on stage",
+    "category": "tadbirlar",
+    "featured": true
+  },
+  {
+    "file": "library-reading.jpg",
+    "title_uz": "Kutubxonada kitobxonlik: Abdulla Qodiriy va Alisher Navoiy portretlari ostida",
+    "title_en": "Reading in the library beneath portraits of Abdulla Qodiriy and Alisher Navoiy",
+    "category": "kutubxona",
+    "featured": true
+  },
+  {
+    "file": "english-lesson.jpg",
+    "title_uz": "Ingliz tili darsi: interaktiv doska va partalardagi Oʻzbekiston bayroqchalari",
+    "title_en": "An English lesson with the smart board and Uzbek flags on the desks",
+    "category": "darslar",
+    "featured": false
+  },
+  {
+    "file": "gazebo-lesson.jpg",
+    "title_uz": "Ochiq havodagi dars: atlas matolar bilan bezatilgan shiyponda",
+    "title_en": "An outdoor lesson in a gazebo decorated with ikat fabric",
+    "category": "darslar",
+    "featured": false
+  },
+  {
+    "file": "drawing-class.jpg",
+    "title_uz": "Tasviriy sanʼat mashgʻuloti: oʻquvchilar ustoz bilan plakat chizmoqda",
+    "title_en": "Art class: students drawing posters with their teacher",
+    "category": "darslar",
+    "featured": false
+  },
+  {
+    "file": "guests-hall.jpg",
+    "title_uz": "Maktab zalida mehmonlar bilan suhbat",
+    "title_en": "Guests in conversation in the school hall",
+    "category": "mehmonlar",
+    "featured": false
+  }
+]

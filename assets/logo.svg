@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-labelledby="t">
+  <title id="t">Alisher Navoiy nomidagi IDUM</title>
+  <!-- Placeholder emblem: replace with the official school logo when available. -->
+  <path d="M32 2 L60 10 V36 C60 53 47 64 32 70 C17 64 4 53 4 36 V10 Z" fill="#0B1F3A"/>
+  <path d="M32 6.5 L56 13.3 V36 C56 50.6 45.2 60.2 32 65.6 C18.8 60.2 8 50.6 8 36 V13.3 Z" fill="none" stroke="#C9A24B" stroke-width="1.6"/>
+  <!-- eight-point star -->
+  <g transform="translate(32 21)" fill="#C9A24B">
+    <rect x="-5" y="-5" width="10" height="10"/>
+    <rect x="-5" y="-5" width="10" height="10" transform="rotate(45)"/>
+    <circle r="2.2" fill="#0B1F3A"/>
+  </g>
+  <!-- open book -->
+  <path d="M14 38 C21 35 27 35.5 31 39 V56 C27 52.8 21 52.5 14 55 Z" fill="#FAF7F0"/>
+  <path d="M50 38 C43 35 37 35.5 33 39 V56 C37 52.8 43 52.5 50 55 Z" fill="#FAF7F0"/>
+  <path d="M17.5 42 C21.5 40.6 25 40.8 28 42.6 M17.5 46 C21.5 44.6 25 44.8 28 46.6 M36 42.6 C39 40.8 42.5 40.6 46.5 42 M36 46.6 C39 44.8 42.5 44.6 46.5 46" stroke="#C9A24B" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+</svg>

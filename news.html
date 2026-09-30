@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yangiliklar — Alisher Navoiy nomidagi IDUM</title>
+  <meta name="description" content="Alisher Navoiy nomidagi IDUM yangiliklari, natijalari va eʼlonlari.">
+  <link rel="canonical" href="https://nysson.github.io/school-website-/news.html">
+  <meta name="theme-color" content="#0B1F3A">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Alisher Navoiy nomidagi IDUM">
+  <meta property="og:title" content="Yangiliklar — Alisher Navoiy nomidagi IDUM">
+  <meta property="og:description" content="Alisher Navoiy nomidagi IDUM yangiliklari, natijalari va eʼlonlari.">
+  <meta property="og:url" content="https://nysson.github.io/school-website-/news.html">
+  <meta property="og:image" content="https://nysson.github.io/school-website-/images/optimized/building-entrance.jpg">
+  <meta property="og:locale" content="uz_UZ">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Yangiliklar — Alisher Navoiy nomidagi IDUM">
+  <meta name="twitter:description" content="Alisher Navoiy nomidagi IDUM yangiliklari, natijalari va eʼlonlari.">
+  <meta name="twitter:image" content="https://nysson.github.io/school-website-/images/optimized/building-entrance.jpg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,500&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,500&amp;display=swap"></noscript>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>(function(d){d.className+=' js';try{var l=localStorage.getItem('idum-lang');if(l&&/^[a-z]{2}$/.test(l))d.lang=l}catch(e){}})(document.documentElement);</script>
+  <script src="js/config.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/news.js" defer></script>
+</head>
+<body data-page="news">
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Asosiy mazmunga oʻtish</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero" id="news-hero" aria-labelledby="page-title">
+      <div class="container">
+        <p class="eyebrow hero-in" data-i18n="news.pageEyebrow">Yangiliklar</p>
+        <h1 class="page-hero__title hero-in" id="page-title" data-i18n="news.pageTitle">Yangiliklar va eʼlonlar</h1>
+        <p class="page-hero__lead hero-in" data-i18n="news.pageLead">Maktabimiz hayotidagi voqealar, natijalar va muhim eʼlonlar — barchasi bir joyda.</p>
+      </div>
+    </section>
+
+    <section class="section" id="news-list-view" aria-labelledby="page-title">
+      <div class="container">
+        <div class="chips" id="news-filters" role="group" aria-label="Turkum boʻyicha saralash" data-i18n-attr="aria-label:news.filter"></div>
+        <div class="news-grid" id="news-list" aria-live="polite"></div>
+        <div class="load-more"><button type="button" class="btn btn--outline" id="news-more" hidden data-i18n="news.loadMore">Yana koʻrsatish</button></div>
+        <noscript><p class="state-box">Yangiliklarni koʻrish uchun brauzeringizda JavaScript yoqilgan boʻlishi kerak. / Please enable JavaScript to view the news.</p></noscript>
+      </div>
+    </section>
+
+    <!-- Detail view: news.html?id=<id> -->
+    <div id="news-detail" hidden></div>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>
