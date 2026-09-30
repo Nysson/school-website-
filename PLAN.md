@@ -1,8 +1,8 @@
 # PLAN — Alisher Navoiy nomidagi IDUM website
 
 ## Status of inputs
-- The repository was empty when work started. Five photos were later provided and added (see README §2);
-  `gazebo-lesson` and `drawing-class` are still pending and are hidden automatically until uploaded.
+- The repository was empty when work started. Ten photos were later provided in chat, reviewed one by one and
+  added with descriptive names (see README §2). Photos not yet uploaded are hidden automatically.
   The site is built against the seven filenames from the brief
   (`building-entrance.jpg`, `literary-event.jpg`, `gazebo-lesson.jpg`, `drawing-class.jpg`,
   `library-reading.jpg`, `guests-hall.jpg`, `english-lesson.jpg`).

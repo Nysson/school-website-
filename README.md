@@ -15,21 +15,23 @@ Then open <http://localhost:8000>. (Pages still open without a server, but news/
 ## 2. Photos
 Photos in `/images` (originals, never modified) and their optimized copies in `/images/optimized`:
 
-| file | status |
+| file | shows |
 |---|---|
-| `building-entrance.webp` | ✅ added (only 720 px wide, so a larger original would sharpen the hero) |
-| `literary-event.webp` | ✅ added (720 px wide, same note) |
-| `library-reading.webp` | ✅ added |
-| `guests-hall.webp` | ✅ added |
-| `english-lesson.webp` | ✅ added |
-| `gazebo-lesson.jpg` | ⏳ not received yet |
-| `drawing-class.jpg` | ⏳ not received yet |
+| `building-entrance.webp` | main building, “XUSH KELIBSIZ”, brass band (720 px wide; a larger original would sharpen the hero) |
+| `literary-event.webp` | literary evening on stage (720 px wide) |
+| `library-reading.webp` | library reading beneath portraits of Qodiriy, Bobur, Navoiy |
+| `award-ceremony.webp` | students with diplomas at an award ceremony |
+| `english-lesson.webp` | English lesson with smart board |
+| `gazebo-lesson.webp` | outdoor lesson in the ikat-decorated gazebo |
+| `drawing-class.webp` | art class, students drawing posters |
+| `written-test.webp` | written test in the gym |
+| `gym-registration.webp` | registration desk at an event in the gym |
+| `guests-hall.webp` | guests in the school hall |
 
 Photos listed in `data/gallery.json` or on the About page that are not uploaded yet are **hidden automatically**,
-so the site never shows empty tiles. To add the two missing ones:
+so the site never shows empty tiles. To add a photo:
 
-1. Put `gazebo-lesson.jpg` and `drawing-class.jpg` in `/images` (any of .jpg/.png/.webp works; if the
-   extension differs, update the `file` field in `data/gallery.json` and the `data-fallback` paths in `about.html`).
+1. Put it in `/images` with a short kebab-case name (.jpg, .png or .webp).
 2. Create optimized copies (≤1600 px, JPEG + WebP, quality 80):
    ```bash
    pip install pillow

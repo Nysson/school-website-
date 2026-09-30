@@ -21,24 +21,45 @@
     "featured": true
   },
   {
+    "file": "award-ceremony.webp",
+    "title_uz": "Taqdirlash marosimi: diplom bilan taqdirlangan oʻquvchilar",
+    "title_en": "Award ceremony: students with their diplomas",
+    "category": "tadbirlar",
+    "featured": true
+  },
+  {
     "file": "english-lesson.webp",
     "title_uz": "Ingliz tili darsi: interaktiv doska va partalardagi Oʻzbekiston bayroqchalari",
     "title_en": "An English lesson with the smart board and Uzbek flags on the desks",
     "category": "darslar",
-    "featured": false
+    "featured": true
   },
   {
-    "file": "gazebo-lesson.jpg",
+    "file": "gazebo-lesson.webp",
     "title_uz": "Ochiq havodagi dars: atlas matolar bilan bezatilgan shiyponda",
     "title_en": "An outdoor lesson in a gazebo decorated with ikat fabric",
     "category": "darslar",
+    "featured": true
+  },
+  {
+    "file": "drawing-class.webp",
+    "title_uz": "Tasviriy sanʼat mashgʻuloti: oʻquvchilar ustoz nazoratida plakat chizmoqda",
+    "title_en": "Art class: students drawing posters under their teacher’s guidance",
+    "category": "darslar",
     "featured": false
   },
   {
-    "file": "drawing-class.jpg",
-    "title_uz": "Tasviriy sanʼat mashgʻuloti: oʻquvchilar ustoz bilan plakat chizmoqda",
-    "title_en": "Art class: students drawing posters with their teacher",
+    "file": "written-test.webp",
+    "title_uz": "Sport zalida yozma test sinovi",
+    "title_en": "Students taking a written test in the school gym",
     "category": "darslar",
+    "featured": false
+  },
+  {
+    "file": "gym-registration.webp",
+    "title_uz": "Sport zalida tadbir ishtirokchilarini roʻyxatga olish",
+    "title_en": "Participants registering for an event in the school gym",
+    "category": "tadbirlar",
     "featured": false
   },
   {
