@@ -139,6 +139,7 @@
 
       'about.pageEyebrow': 'Maktab haqida',
       'img.missing': 'Surat tez orada',
+      'img.director': 'Maktab direktori Bobonazarov Dilshod',
       'img.building': 'Maktabning bosh binosi: bayroq, orkestr va safga tizilgan oʻquvchilar',
       'img.literary': 'Adabiy kecha: milliy liboslardagi oʻquvchilar sahnada',
       'img.gazebo': 'Atlas matolar bilan bezatilgan shiyponda ochiq havodagi dars',
@@ -288,6 +289,7 @@
 
       'about.pageEyebrow': 'About the school',
       'img.missing': 'Photo coming soon',
+      'img.director': 'School Director Dilshod Bobonazarov',
       'img.building': 'The school’s main building with the flag, a brass band and students lined up',
       'img.literary': 'A literary evening: students in national dress on stage',
       'img.gazebo': 'An outdoor lesson in a gazebo decorated with ikat fabric',

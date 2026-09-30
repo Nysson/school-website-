@@ -49,6 +49,12 @@ Loading order for each image: `images/optimized/<name>.webp` → `images/optimiz
 Categories: `bino`, `tadbirlar`, `darslar`, `kutubxona`, `mehmonlar`. `featured: true` makes the tile wide and
 puts it first in the home-page mosaic.
 
+### Leadership photos
+`images/leadership/` holds the director’s and deputies’ portraits (cropped from `leadership-board-original.png`,
+about 150 px each, so a larger original photo of each person would look sharper). To replace one, overwrite the
+file with the same name. Names, roles and emails are in the “LEADERSHIP” section of `about.html`, and the
+director’s photo is also used in the welcome block on `index.html`.
+
 ## 3. Add news
 Only `data/news.json` needs editing (plus an image in `/images`). Add an object:
 ```json
@@ -83,7 +89,6 @@ Empty fields stay hidden.
 - **Adding Russian:** add a `ru` dictionary in `js/i18n.js`, add `'ru'` to `languages` in `js/config.js`,
   add `*_ru` fields to the JSON files, add `ru` blocks in the HTML and one CSS line in `css/style.css` §2.
 - The director’s welcome on the home page is a **DRAFT** (marked with an HTML comment) and must be approved by the director.
-  The director’s photo placeholder is marked with a `TODO` comment.
 
 ## 6. Deploy
 Upload the whole folder to any static host.
