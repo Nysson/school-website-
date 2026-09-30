@@ -1,18 +1,5 @@
 [
   {
-    "id": "sayt-ishga-tushdi",
-    "date": "2026-09-30",
-    "category": "announcements",
-    "image": "building-entrance.webp",
-    "sample": true,
-    "title_uz": "Maktabimizning rasmiy veb-sayti ishga tushdi",
-    "title_en": "Our school’s official website is live",
-    "summary_uz": "Endi maktab yangiliklari, natijalari va suratlarini bir joyda — oʻzbek va ingliz tillarida kuzatib borishingiz mumkin.",
-    "summary_en": "School news, results and photos are now in one place — in Uzbek and English.",
-    "body_uz": "Alisher Navoiy nomidagi IDUMning rasmiy veb-sayti ishga tushirildi. Sayt oʻquvchilar, ota-onalar va maktabimizga qiziqqan barcha uchun ochiq.\n\nBu yerda maktab tarixi va taʼlim modeli, soʻnggi yangiliklar va eʼlonlar, shuningdek, maktab hayotidan suratlar jamlangan. Sayt oʻzbek va ingliz tillarida ishlaydi.\n\nBiz bilan bogʻlanish uchun sahifa pastidagi telefon raqami va Facebook sahifamizdan foydalanishingiz mumkin.",
-    "body_en": "The official website of Alisher Navoiy IDUM is now live. It is open to students, parents and everyone interested in our school.\n\nHere you will find the school’s history and education model, the latest news and announcements, and photos from school life. The site is available in Uzbek and English.\n\nTo get in touch, use the phone number and Facebook page at the bottom of every page."
-  },
-  {
     "id": "kutubxonada-kitobxonlik",
     "date": "2026-09-22",
     "category": "events",
@@ -55,7 +42,7 @@
     "id": "sat-natijalari",
     "date": "2026-08-10",
     "category": "results",
-    "image": "library-reading.webp",
+    "image": "written-test.webp",
     "sample": true,
     "title_uz": "SAT natijalari: 58 nafar oʻquvchi yuqori ball, 17 nafari 1500+",
     "title_en": "SAT results: 58 students with high scores, 17 above 1500",

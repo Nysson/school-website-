@@ -66,7 +66,7 @@ Only `data/news.json` needs editing (plus an image in `/images`). Add an object:
 - Categories: `results`, `events`, `announcements`.
 - News is sorted newest first automatically. The home page shows the 3 newest items.
 - Detail page: `news.html?id=unique-short-id`.
-- **The 6 current items are samples** (`"sample": true`, shown with a “Namuna / Sample” badge) based only on
+- **The 5 current items are samples** (`"sample": true`, shown with a “Namuna / Sample” badge) based only on
   the official facts. Replace or delete them before launch.
 - Tip: validate the JSON at <https://jsonlint.com> after editing. One missing comma breaks the list.
 
