@@ -28,7 +28,7 @@
     var caption = i18n.field(item, 'title');
     return '<li class="gallery__item' + (item.featured ? ' gallery__item--wide' : '') + ' reveal">' +
       '<button type="button" class="gallery__btn media" data-index="' + index + '">' +
-        SITE.picture(item.file, caption, { width: 1600, height: 1067 }) +
+        SITE.picture(item.file, caption, { width: 1600, height: 1200 }) +
         '<span class="gallery__caption"><span class="gallery__cat">' + esc(i18n.t('gcat.' + item.category)) + '</span>' +
         '<span>' + esc(caption) + '</span></span>' +
         '<span class="visually-hidden">' + esc(i18n.t('gallery.open')) + '</span>' +
@@ -58,10 +58,11 @@
     if (failed) { previewEl.innerHTML = ''; return; }
     var picked = items.filter(function (it) { return it.featured; })
       .concat(items.filter(function (it) { return !it.featured; })).slice(0, 6);
+    previewEl.className = 'mosaic mosaic--n' + picked.length; // layout adapts to 5 or 6 photos
     previewEl.innerHTML = picked.map(function (item, i) {
       var caption = i18n.field(item, 'title');
       return '<a class="mosaic__item mosaic__item--' + (i + 1) + ' media reveal" href="gallery.html">' +
-        SITE.picture(item.file, caption, { width: 1600, height: 1067 }) +
+        SITE.picture(item.file, caption, { width: 1600, height: 1200 }) +
         '<span class="mosaic__caption">' + esc(caption) + '</span></a>';
     }).join('');
     SITE.checkBrokenImages(previewEl);
@@ -97,9 +98,24 @@
 
   i18n.onChange(renderAll);
 
+  // Photos listed in gallery.json but not uploaded yet are skipped, so no empty tiles are shown.
+  // (A cheap HEAD request per photo; on file:// or unusual hosts every photo is kept.)
+  function exists(item) {
+    var stem = item.file.replace(/\.[^.]+$/, '');
+    var head = function (url) { return fetch(url, { method: 'HEAD' }).then(function (r) { return r.ok; }); };
+    return head('images/optimized/' + stem + '.jpg')
+      .then(function (ok) { return ok || head('images/' + item.file); })
+      .catch(function () { return true; });
+  }
+
   fetch('data/gallery.json')
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (data) { items = Array.isArray(data) ? data : []; })
+    .then(function (data) {
+      var list = Array.isArray(data) ? data : [];
+      return Promise.all(list.map(exists)).then(function (flags) {
+        items = list.filter(function (it, i) { return flags[i]; });
+      });
+    })
     .catch(function () { failed = true; })
     .then(renderAll);
 })();

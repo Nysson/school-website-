@@ -12,20 +12,29 @@ python3 -m http.server 8000
 ```
 Then open <http://localhost:8000>. (Pages still open without a server, but news/gallery show a friendly message.)
 
-## 2. Photos ⚠️ (still to do)
-The repository did not contain any photos yet. Every image slot currently shows an ornamental
-placeholder, and the real photos will show up automatically once they are added:
+## 2. Photos
+Photos in `/images` (originals, never modified) and their optimized copies in `/images/optimized`:
 
-1. Put the photos in `/images` with these exact names:
-   `building-entrance.jpg`, `literary-event.jpg`, `gazebo-lesson.jpg`, `drawing-class.jpg`,
-   `library-reading.jpg`, `guests-hall.jpg`, `english-lesson.jpg`.
-2. Create optimized copies (≤1600 px, JPEG + WebP, quality 80). The originals are never changed:
+| file | status |
+|---|---|
+| `building-entrance.webp` | ✅ added (only 720 px wide, so a larger original would sharpen the hero) |
+| `literary-event.webp` | ✅ added (720 px wide, same note) |
+| `library-reading.webp` | ✅ added |
+| `guests-hall.webp` | ✅ added |
+| `english-lesson.webp` | ✅ added |
+| `gazebo-lesson.jpg` | ⏳ not received yet |
+| `drawing-class.jpg` | ⏳ not received yet |
+
+Photos listed in `data/gallery.json` or on the About page that are not uploaded yet are **hidden automatically**,
+so the site never shows empty tiles. To add the two missing ones:
+
+1. Put `gazebo-lesson.jpg` and `drawing-class.jpg` in `/images` (any of .jpg/.png/.webp works; if the
+   extension differs, update the `file` field in `data/gallery.json` and the `data-fallback` paths in `about.html`).
+2. Create optimized copies (≤1600 px, JPEG + WebP, quality 80):
    ```bash
    pip install pillow
    python3 tools/optimize_images.py
    ```
-3. Check the captions in `data/gallery.json` and the `img.*` alt texts in `js/i18n.js` against the real photos.
-   They were written from the photo descriptions in the brief.
 
 Loading order for each image: `images/optimized/<name>.webp` → `images/optimized/<name>.jpg` → `images/<name>.jpg` → placeholder.
 

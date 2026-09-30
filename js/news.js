@@ -28,7 +28,7 @@
     var title = i18n.field(item, 'title');
     return '<article class="news-card' + (featured ? ' news-card--featured' : '') + ' reveal">' +
       '<a class="news-card__media media" href="' + url + '" tabindex="-1" aria-hidden="true">' +
-        SITE.picture(item.image, '', { width: 1600, height: 1067 }) + '</a>' +
+        SITE.picture(item.image, '', { width: 1600, height: 1200 }) + '</a>' +
       '<div class="news-card__body">' +
         '<p class="news-card__meta"><span class="badge">' + esc(i18n.t('cat.' + item.category)) + '</span>' +
           '<time datetime="' + esc(item.date) + '">' + esc(i18n.formatDate(item.date)) + '</time>' +

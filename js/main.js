@@ -41,7 +41,7 @@
     return '<picture>' +
       '<source type="image/webp" srcset="images/optimized/' + esc(stem) + '.webp">' +
       '<img src="images/optimized/' + esc(stem) + '.jpg" data-fallback="images/' + esc(file) + '"' +
-      ' alt="' + esc(alt) + '" width="' + (opts.width || 1600) + '" height="' + (opts.height || 1067) + '"' +
+      ' alt="' + esc(alt) + '" width="' + (opts.width || 1600) + '" height="' + (opts.height || 1200) + '"' +
       (opts.eager ? ' fetchpriority="high"' : ' loading="lazy"') + ' decoding="async"' +
       (opts.className ? ' class="' + opts.className + '"' : '') + '>' +
       '</picture>';

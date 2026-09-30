@@ -5,7 +5,7 @@ Create web-optimized copies of every photo in /images.
     pip install pillow
     python3 tools/optimize_images.py
 
-For each images/<name>.jpg|jpeg|png it writes
+For each images/<name>.jpg|jpeg|png|webp it writes
     images/optimized/<name>.jpg   (max 1600px wide, quality 80, progressive)
     images/optimized/<name>.webp  (max 1600px wide, quality 80)
 Originals are never modified. EXIF orientation is applied so photos are not sideways.
@@ -28,7 +28,7 @@ QUALITY = 80
 
 def main(force=False):
     OUT.mkdir(exist_ok=True)
-    photos = [p for p in sorted(SRC.iterdir()) if p.suffix.lower() in (".jpg", ".jpeg", ".png")]
+    photos = [p for p in sorted(SRC.iterdir()) if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")]
     if not photos:
         print("No photos found in", SRC)
         return

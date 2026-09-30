@@ -1,27 +1,27 @@
 [
   {
-    "file": "building-entrance.jpg",
+    "file": "building-entrance.webp",
     "title_uz": "Maktabning bosh binosi: bayroq, orkestr va oʻquvchilar bilan tantanali kutib olish",
     "title_en": "The main building: a festive welcome with the flag, a brass band and students",
     "category": "bino",
     "featured": true
   },
   {
-    "file": "literary-event.jpg",
+    "file": "literary-event.webp",
     "title_uz": "Adabiy kecha: milliy liboslardagi oʻquvchilar sahnada",
     "title_en": "A literary evening: students in national dress on stage",
     "category": "tadbirlar",
     "featured": true
   },
   {
-    "file": "library-reading.jpg",
-    "title_uz": "Kutubxonada kitobxonlik: Abdulla Qodiriy va Alisher Navoiy portretlari ostida",
-    "title_en": "Reading in the library beneath portraits of Abdulla Qodiriy and Alisher Navoiy",
+    "file": "library-reading.webp",
+    "title_uz": "Kutubxonada kitobxonlik: Abdulla Qodiriy, Zahiriddin Muhammad Bobur va Alisher Navoiy portretlari ostida",
+    "title_en": "Reading in the library beneath portraits of Abdulla Qodiriy, Zahiriddin Muhammad Bobur and Alisher Navoiy",
     "category": "kutubxona",
     "featured": true
   },
   {
-    "file": "english-lesson.jpg",
+    "file": "english-lesson.webp",
     "title_uz": "Ingliz tili darsi: interaktiv doska va partalardagi Oʻzbekiston bayroqchalari",
     "title_en": "An English lesson with the smart board and Uzbek flags on the desks",
     "category": "darslar",
@@ -42,7 +42,7 @@
     "featured": false
   },
   {
-    "file": "guests-hall.jpg",
+    "file": "guests-hall.webp",
     "title_uz": "Maktab zalida mehmonlar bilan suhbat",
     "title_en": "Guests in conversation in the school hall",
     "category": "mehmonlar",
