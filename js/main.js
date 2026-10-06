@@ -96,8 +96,8 @@
     return '<div class="site-header__inner container">' +
       '<a class="brand" href="index.html" data-i18n-attr="aria-label:a11y.home">' +
         '<img class="brand__logo" src="assets/logo.svg" alt="" width="40" height="45">' +
-        '<span class="brand__text"><span class="brand__name">Alisher Navoiy</span>' +
-        '<span class="brand__sub">IDUM · Navoiy</span></span>' +
+        '<span class="brand__text"><span class="brand__name">Alisher Navoi</span>' +
+        '<span class="brand__sub">IDUM · Navoi</span></span>' +
       '</a>' +
       '<nav class="nav" id="site-nav" data-i18n-attr="aria-label:a11y.mainNav">' +
         '<ul class="nav__list">' + links + '</ul>' +

@@ -1,4 +1,4 @@
-# PLAN — Alisher Navoiy nomidagi IDUM website
+# PLAN — Alisher Navoi nomidagi IDUM website
 
 ## Status of inputs
 - The repository was empty when work started. Ten photos were later provided in chat, reviewed one by one and

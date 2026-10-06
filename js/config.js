@@ -11,20 +11,20 @@ window.SCHOOL_CONFIG = {
   defaultLang: 'uz',
 
   name: {
-    uz: 'Alisher Navoiy nomidagi oʻzbek tili va adabiyotiga ixtisoslashtirilgan davlat umumtaʼlim maktabi',
-    en: 'Alisher Navoiy Specialized State School for Uzbek Language and Literature'
+    uz: 'Alisher Navoi nomidagi oʻzbek tili va adabiyotiga ixtisoslashtirilgan davlat umumtaʼlim maktabi',
+    en: 'Alisher Navoi Specialized School in Navoi — a specialized state school for Uzbek language and literature'
   },
   shortName: {
-    uz: 'Alisher Navoiy nomidagi IDUM',
-    en: 'Alisher Navoiy IDUM'
+    uz: 'Alisher Navoi nomidagi IDUM',
+    en: 'Alisher Navoi Specialized School in Navoi'
   },
 
   address: {
-    uz: 'Navoiy viloyati, Navoiy shahri, Mahmud Tarobiy koʻchasi, 125a bino',
-    en: '125a Mahmud Tarobiy Street, Navoiy city, Navoiy region, Uzbekistan'
+    uz: 'Navoi viloyati, Navoi shahri, Mahmud Tarobiy koʻchasi, 125a bino',
+    en: '125a Mahmud Tarobiy Street, Navoi city, Navoi region, Uzbekistan'
   },
   // Query sent to Google Maps for the embedded map and "Get directions".
-  mapQuery: 'Mahmud Tarobiy 125a, Navoiy, Uzbekistan',
+  mapQuery: 'Mahmud Tarobiy 125a, Navoi, Uzbekistan',
 
   phone: '+998949527872',            // used in tel: links
   phoneDisplay: '+998 94 952 78 72', // how it is shown

@@ -1,7 +1,7 @@
-# Alisher Navoiy nomidagi IDUM — official website
+# Alisher Navoi nomidagi IDUM — official website
 
-Bilingual (Uzbek / English) static website for the Alisher Navoiy Specialized State School for
-Uzbek Language and Literature (IDUM), Navoiy. Plain HTML + CSS + vanilla JS. No build step, no dependencies.
+Bilingual (Uzbek / English) static website for the Alisher Navoi Specialized State School for
+Uzbek Language and Literature (IDUM), Navoi. Plain HTML + CSS + vanilla JS. No build step, no dependencies.
 
 ## 1. Run locally
 The news and gallery are loaded from JSON with `fetch()`, which browsers block for files opened
@@ -19,7 +19,7 @@ Photos in `/images` (originals, never modified) and their optimized copies in `/
 |---|---|
 | `building-entrance.webp` | main building, “XUSH KELIBSIZ”, brass band (720 px wide; a larger original would sharpen the hero) |
 | `literary-event.webp` | literary evening on stage (720 px wide) |
-| `library-reading.webp` | library reading beneath portraits of Qodiriy, Bobur, Navoiy |
+| `library-reading.webp` | library reading beneath portraits of Qodiriy, Bobur, Navoi |
 | `award-ceremony.webp` | students with diplomas at an award ceremony |
 | `english-lesson.webp` | English lesson with smart board |
 | `gazebo-lesson.webp` | outdoor lesson in the ikat-decorated gazebo |

@@ -30,8 +30,8 @@
       'nav.gallery': 'Galereya',
       'nav.contact': 'Aloqa',
 
-      'hero.eyebrow': 'Navoiy shahri · 2017-yildan beri',
-      'hero.title': 'Alisher Navoiy nomidagi IDUM',
+      'hero.eyebrow': 'Navoi shahri · 2017-yildan beri',
+      'hero.title': 'Alisher Navoi nomidagi IDUM',
       'hero.subtitle': 'Oʻzbek tili va adabiyotiga ixtisoslashtirilgan davlat umumtaʼlim maktabi',
       'hero.btnAbout': 'Maktab haqida',
       'hero.btnGallery': 'Galereya',
@@ -134,7 +134,7 @@
 
       'footer.pages': 'Sahifalar',
       'footer.contact': 'Aloqa',
-      'footer.copy': '© 2026 Alisher Navoiy nomidagi IDUM',
+      'footer.copy': '© 2026 Alisher Navoi nomidagi IDUM',
       'footer.rights': 'Barcha huquqlar himoyalangan.',
 
       'about.pageEyebrow': 'Maktab haqida',
@@ -151,15 +151,15 @@
       'notfound.title': 'Sahifa topilmadi',
       'notfound.text': 'Siz izlagan sahifa mavjud emas yoki koʻchirilgan.',
 
-      'meta.home.title': 'Alisher Navoiy nomidagi IDUM — Navoiy shahri',
-      'meta.home.desc': 'Alisher Navoiy nomidagi oʻzbek tili va adabiyotiga ixtisoslashtirilgan davlat umumtaʼlim maktabi (IDUM), Navoiy shahri. 3190 oʻquvchi, 257 oʻqituvchi, 110 sinf.',
-      'meta.about.title': 'Maktab haqida — Alisher Navoiy nomidagi IDUM',
+      'meta.home.title': 'Alisher Navoi nomidagi IDUM — Navoi shahri',
+      'meta.home.desc': 'Alisher Navoi nomidagi oʻzbek tili va adabiyotiga ixtisoslashtirilgan davlat umumtaʼlim maktabi (IDUM), Navoi shahri. 3190 oʻquvchi, 257 oʻqituvchi, 110 sinf.',
+      'meta.about.title': 'Maktab haqida — Alisher Navoi nomidagi IDUM',
       'meta.about.desc': 'Maktab tarixi, taʼlim modeli, natijalari va oʻquvchilar hayoti: 2017-yilda tashkil topgan, 2019-yildan IDUM maqomida.',
-      'meta.news.title': 'Yangiliklar — Alisher Navoiy nomidagi IDUM',
-      'meta.news.desc': 'Alisher Navoiy nomidagi IDUM yangiliklari, natijalari va eʼlonlari.',
-      'meta.gallery.title': 'Galereya — Alisher Navoiy nomidagi IDUM',
-      'meta.gallery.desc': 'Alisher Navoiy nomidagi IDUM hayotidan suratlar: bino, darslar, tadbirlar, kutubxona va mehmonlar.',
-      'meta.notfound.title': 'Sahifa topilmadi — Alisher Navoiy nomidagi IDUM',
+      'meta.news.title': 'Yangiliklar — Alisher Navoi nomidagi IDUM',
+      'meta.news.desc': 'Alisher Navoi nomidagi IDUM yangiliklari, natijalari va eʼlonlari.',
+      'meta.gallery.title': 'Galereya — Alisher Navoi nomidagi IDUM',
+      'meta.gallery.desc': 'Alisher Navoi nomidagi IDUM hayotidan suratlar: bino, darslar, tadbirlar, kutubxona va mehmonlar.',
+      'meta.notfound.title': 'Sahifa topilmadi — Alisher Navoi nomidagi IDUM',
       'meta.notfound.desc': 'Sahifa topilmadi.',
 
       months: ['yanvar', 'fevral', 'mart', 'aprel', 'may', 'iyun', 'iyul', 'avgust', 'sentabr', 'oktabr', 'noyabr', 'dekabr']
@@ -180,8 +180,8 @@
       'nav.gallery': 'Gallery',
       'nav.contact': 'Contact',
 
-      'hero.eyebrow': 'Navoiy, Uzbekistan · Since 2017',
-      'hero.title': 'Alisher Navoiy Specialized School',
+      'hero.eyebrow': 'Navoi, Uzbekistan · Since 2017',
+      'hero.title': 'Alisher Navoi Specialized School in Navoi',
       'hero.subtitle': 'A specialized state school for Uzbek language and literature (IDUM)',
       'hero.btnAbout': 'About the school',
       'hero.btnGallery': 'Gallery',
@@ -284,7 +284,7 @@
 
       'footer.pages': 'Pages',
       'footer.contact': 'Contact',
-      'footer.copy': '© 2026 Alisher Navoiy nomidagi IDUM',
+      'footer.copy': '© 2026 Alisher Navoi nomidagi IDUM',
       'footer.rights': 'All rights reserved.',
 
       'about.pageEyebrow': 'About the school',
@@ -301,15 +301,15 @@
       'notfound.title': 'Page not found',
       'notfound.text': 'The page you are looking for doesn’t exist or has been moved.',
 
-      'meta.home.title': 'Alisher Navoiy Specialized School (IDUM) — Navoiy, Uzbekistan',
-      'meta.home.desc': 'Alisher Navoiy Specialized State School for Uzbek Language and Literature (IDUM) in Navoiy, Uzbekistan. 3,190 students, 257 teachers, 110 classes.',
-      'meta.about.title': 'About the school — Alisher Navoiy IDUM',
+      'meta.home.title': 'Alisher Navoi Specialized School in Navoi (IDUM) — Uzbekistan',
+      'meta.home.desc': 'Alisher Navoi Specialized School in Navoi (IDUM) — a specialized state school for Uzbek language and literature in Navoi, Uzbekistan. 3,190 students, 257 teachers, 110 classes.',
+      'meta.about.title': 'About the school — Alisher Navoi Specialized School in Navoi',
       'meta.about.desc': 'Our history, education model, results and student life: founded in 2017, a specialized school (IDUM) since 2019.',
-      'meta.news.title': 'News — Alisher Navoiy IDUM',
-      'meta.news.desc': 'News, results and announcements from Alisher Navoiy Specialized School (IDUM), Navoiy.',
-      'meta.gallery.title': 'Gallery — Alisher Navoiy IDUM',
-      'meta.gallery.desc': 'Photos from Alisher Navoiy IDUM: the building, lessons, events, the library and guests.',
-      'meta.notfound.title': 'Page not found — Alisher Navoiy IDUM',
+      'meta.news.title': 'News — Alisher Navoi Specialized School in Navoi',
+      'meta.news.desc': 'News, results and announcements from Alisher Navoi Specialized School in Navoi (IDUM).',
+      'meta.gallery.title': 'Gallery — Alisher Navoi Specialized School in Navoi',
+      'meta.gallery.desc': 'Photos from Alisher Navoi Specialized School in Navoi: the building, lessons, events, the library and guests.',
+      'meta.notfound.title': 'Page not found — Alisher Navoi Specialized School in Navoi',
       'meta.notfound.desc': 'Page not found.',
 
       months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
