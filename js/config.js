@@ -20,11 +20,12 @@ window.SCHOOL_CONFIG = {
   },
 
   address: {
-    uz: 'Navoi viloyati, Navoi shahri, Mahmud Tarobiy koʻchasi, 125a bino',
-    en: '125a Mahmud Tarobiy Street, Navoi city, Navoi region, Uzbekistan'
+    uz: 'Navoi viloyati, Navoi shahri, Mahmud Tarobiy koʻchasi, 125a bino, 210100',
+    en: '125a Mahmud Tarobiy Street, Navoi city, Navoi region, 210100, Uzbekistan'
   },
+  postalCode: '210100',
   // Query sent to Google Maps for the embedded map and "Get directions".
-  mapQuery: 'Mahmud Tarobiy 125a, Navoi, Uzbekistan',
+  mapQuery: 'Mahmud Tarobiy 125a, Navoi 210100, Uzbekistan',
 
   phone: '+998949527872',            // used in tel: links
   phoneDisplay: '+998 94 952 78 72', // how it is shown
