@@ -50,8 +50,7 @@ Categories: `bino`, `tadbirlar`, `darslar`, `kutubxona`, `mehmonlar`. `featured:
 puts it first in the home-page mosaic.
 
 ### Leadership photos
-`images/leadership/` holds the director’s and deputies’ portraits (cropped from `leadership-board-original.png`,
-about 150 px each, so a larger original photo of each person would look sharper). To replace one, overwrite the
+`images/leadership/` holds the director’s and deputies’ portraits (about 150 px each, so a larger original photo of each person would look sharper). To replace one, overwrite the
 file with the same name. Names, roles and emails are in the “LEADERSHIP” section of `about.html`, and the
 director’s photo is also used in the welcome block on `index.html`.
 

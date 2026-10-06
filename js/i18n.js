@@ -65,7 +65,7 @@
 
       'director.eyebrow': 'Xush kelibsiz',
       'director.title': 'Maktab rahbariyatining tabrigi',
-      'director.name': 'Bobonazarov Dilshod',
+      'director.name': 'Safarova Nargishon',
       'director.role': 'Maktab direktori',
       'director.photo': 'Direktor surati tez orada',
 
@@ -139,7 +139,7 @@
 
       'about.pageEyebrow': 'Maktab haqida',
       'img.missing': 'Surat tez orada',
-      'img.director': 'Maktab direktori Bobonazarov Dilshod',
+      'img.director': 'Maktab direktori Safarova Nargishon',
       'img.building': 'Maktabning bosh binosi: bayroq, orkestr va safga tizilgan oʻquvchilar',
       'img.literary': 'Adabiy kecha: milliy liboslardagi oʻquvchilar sahnada',
       'img.gazebo': 'Atlas matolar bilan bezatilgan shiyponda ochiq havodagi dars',
@@ -215,7 +215,7 @@
 
       'director.eyebrow': 'Welcome',
       'director.title': 'A welcome from the school',
-      'director.name': 'Dilshod Bobonazarov',
+      'director.name': 'Nargishon Safarova',
       'director.role': 'School Director',
       'director.photo': 'Director’s photo coming soon',
 
@@ -289,7 +289,7 @@
 
       'about.pageEyebrow': 'About the school',
       'img.missing': 'Photo coming soon',
-      'img.director': 'School Director Dilshod Bobonazarov',
+      'img.director': 'School Director Nargishon Safarova',
       'img.building': 'The school’s main building with the flag, a brass band and students lined up',
       'img.literary': 'A literary evening: students in national dress on stage',
       'img.gazebo': 'An outdoor lesson in a gazebo decorated with ikat fabric',
